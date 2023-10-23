@@ -301,5 +301,57 @@ i {
 }
 }
 
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 400px;
+  height: 550px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width:250px;
+  object-fit: cover;
+  margin-left: 40px;
+}
+
+.card h2 {
+  margin-top: 10px;
+}
+
+.card p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+  height: 150px;
+}
+
+.enroll-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.enroll-button:hover {
+  background-color: #45a049;
+}
 
 
